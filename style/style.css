@@ -1,0 +1,100 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 100;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+.nav__responsive-ul{
+    display: none
+}
+.nav{
+    background-color: #333;
+}
+.nav__li{
+    display: inline-block;
+    padding: 12px;
+    color: #1c7;
+}
+.nav__li:hover > a{
+    color: #5dd;}
+.nav__li:hover {
+    color: #5dd;}
+.nav__li a{
+    color: #fff;
+    text-decoration: none;    
+}
+.nav__li i{
+    width: 20px;
+    box-sizing: border-box;
+    text-align: right ;
+    margin: 5px;
+}
+.form{
+    min-width: 400px;
+    flex: 1;
+    padding: 30px;
+    order: 5;
+    display: inline-block;
+}
+.form__input{
+    width: 10%;
+    padding: 12px;
+    margin: 6px 0;
+    align-items: center;
+    border: none;
+    border-bottom: 3px solid #1c7;
+    background: transparent;
+    color: #fff;
+    
+}
+.form__input:focus{
+    background: linear-gradient(to bottom, transparent, #222);
+    outline: none;
+    border-bottom: 3px solid #5dd;
+}
+.form__input[type="submit"]{
+    background-color: #1c7;
+    padding: 12px;
+    float: left;
+}
+.form__input[type="submit"]:focus{
+    background-color: #5dd;
+    padding: 12px;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "main main aside aside"
+    "main main aside aside"
+    "main main aside aside"
+    "main main aside aside"
+    "main main aside aside"
+    "main main aside aside"
+    "main main aside aside"
+    "main main aside aside";
+    grid-template-rows: 1fr 1fr;
+    height: 100%;
+}
+.grid-main{
+    grid-area: main;
+    background-color: #1c7;
+}
+.grid-aside{
+    grid-area: aside;
+    background-color: #5dd;
+}
+img {
+    position: relative;
+    width:200px ;
+    height: 200px;
+    border-radius: 50% ;
+    overflow: hidden;
+}
+footer a{
+    color: #fff;
+}
+
+    

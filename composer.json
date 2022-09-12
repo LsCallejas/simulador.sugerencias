@@ -1,0 +1,15 @@
+{
+    "name": "ls/sugerencias",
+    "autoload": {
+        "psr-4": {
+            "Ls\\Sugerencias\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Carlos",
+            "email": "lscallejas14@gmail.com"
+        }
+    ],
+    "require": {}
+}
